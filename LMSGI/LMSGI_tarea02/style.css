@@ -1,0 +1,35 @@
+/* Estilo general para los iconos */
+.icono {
+    width: 20px; /* Ajusta el tamaño del icono */
+    height: auto; /* Mantén las proporciones */
+    vertical-align: middle; /* Alinea los iconos al texto */
+    margin-left: 5px; /* Espacio entre el texto y el icono */
+}
+
+/* Opcional: Estilo para el párrafo */
+p {
+    font-size: 16px; /* Ajusta el tamaño de fuente para mejor legibilidad */
+    line-height: 1.6; /* Espaciado entre líneas */
+    margin-bottom: 15px; /* Espaciado entre párrafos */
+}
+.icono-ingrediente {
+    width: 20px;
+    height: auto;
+    vertical-align: middle;
+    margin-left: 5px; /* Espacio entre el texto y el icono */
+}
+/* Ocultar el mensaje por defecto */
+.mensaje-completado {
+    font-family: 'Montserrat', sans-serif; /* Fuente Montserrat */
+    display: none; /* Ocultar el mensaje por defecto */
+    font-size: 18px; /* Tamaño de fuente */
+    color: #1f4361; /* Color del texto */
+    margin-top: 20px; /* Espaciado superior */
+    text-align: center; /* Centrado del texto */
+}
+
+
+/* Mostrar el mensaje cuando todos los checkbox están seleccionados */
+.ingrediente-lista:has(input:checked):not(:has(input:not(:checked))) + .mensaje-completado {
+    display: block;
+}
