@@ -1,3 +1,2 @@
-# Tareas de LMGSI - TEMA 2
+# Tareas de CLASE
 
-En esta carpeta van entregadas las tres tareas.
