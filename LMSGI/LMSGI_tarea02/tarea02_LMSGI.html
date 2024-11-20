@@ -9,28 +9,34 @@
     
 <body>
     <header>
-        <h1>Hoy cocinamos: Sopa de cebolla</h1>
+        <img src="img_tarea02_LMSGI/logo_02.jpg" alt="Persona" class="logotipo">
         <nav> <!-- Quiero incluir un menu deslizante / menu ancla para poder navegar por la web -->
             <a href="#ingredientes">Ingredientes</a>
             <a href="#proceso">Proceso</a>
-            <a href="#casi">¡Tu puedes!</a>
-            <a href="#footer">Estamos contigo</a>
+            <a href="#venga">Juntos mejoramos</a>
+            <a href="#footer">Seamos chef-amigos</a>
         </nav>
+       
     </header>
-    <h2>Instrucciones básicas de la receta:</h2>
-    <p> Esta receta es de nivel fácil:
-    <img src="img_tarea02_LMSGI/icon-escaleras.png" alt="Nivel fácil" class="icono">
-    </p>
-    <p> Está creada para dar de comer a 4 personas aproximadamente: 
-    <img src="img_tarea02_LMSGI/icon-person.png" alt="Persona" class="icono">
-    <img src="img_tarea02_LMSGI/icon-person.png" alt="Persona" class="icono">
-    <img src="img_tarea02_LMSGI/icon-person.png" alt="Persona" class="icono">
-    <img src="img_tarea02_LMSGI/icon-person.png" alt="Persona" class="icono">
-    </p>
-    
+    <section id="previo">
+        <br><br><h1>Hoy cocinamos: Sopa de cebolla</h1>
+        <h2>Instrucciones básicas de la receta</h2>
+        <p> El nivel de esta receta es: <span style="color: #EA6459">FÁCIL</span>
+        <!-- podía poner la imagen, pero queda recargado <img src="img_tarea02_LMSGI/icon-escaleras.png" alt="Nivel fácil" class="icono">
+        </p> -->
+        <p> Está creada para dar de comer a 4 personas aproximadamente: 
+        <img src="img_tarea02_LMSGI/icon-person.png" alt="Persona" class="icono">
+        <img src="img_tarea02_LMSGI/icon-person.png" alt="Persona" class="icono">
+        <img src="img_tarea02_LMSGI/icon-person.png" alt="Persona" class="icono">
+        <img src="img_tarea02_LMSGI/icon-person.png" alt="Persona" class="icono">
+        </p>
+    </section>
+   
     <main> <!-- A partir de aquí se crea, main significa: el contenido principal de una página.-->
         <section id="ingredientes">
-            <h2>Ingredientes:</h2>
+            <h2><b>Ingredientes</b></h2>
+            <p> ¿Estas preparada para iniciar tu receta de Sopa de cebolla?
+                <br><i>Marca todos los ingredientes para asegurarte de que los tienes.</i></p><br>
             <div class="ingrediente-lista">
                 <div class="ingrediente">
                     <input type="checkbox" id="cebollas">
@@ -95,23 +101,63 @@
         <section id="proceso">
             <h2>Proceso:</h2>
             <p>1. Pela y corta las cebollas en rodajas finas.</p>
-            <p>2. Sofríe las cebollas y los ajos hasta que estén dorados.</p>
-            <p>3. Añade el caldo y cocina a fuego lento durante 30 minutos.</p>
-            <p>4. Sirve con pan tostado y queso rallado por encima.</p>
+            <img src="img_tarea02_LMSGI/01_ejerc01_tarea02.jpg" class="imagenes-proceso" alt="Pelar y partir las cebollas en rodajas finas." width="150px" height="100px">
+        
+            <p>2. Rehogarlas con la mantequilla, sal y pimienta a fuego lento hasta que estén transparentes sin dorarse.</p>
+            <img src="img_tarea02_LMSGI/02_ejerc01_tarea02.webp" class="imagenes-proceso" alt="Rehogarlas con la mantequilla, sal y pimienta a fuego lento hasta que estén transparentes sin dorarse." width="150px" height="100px">
+        
+            <p>3. Añadir la harina sin dejar de remover.</p>
+            <img src="img_tarea02_LMSGI/03_ejerc01_tarea02.webp" class="imagenes-proceso" alt="Añadir la harina sin dejar de remover." width="150px" height="100px">
+        
+            <p>4. Ponerlo en una cazuela con el caldo, el tomillo y el laurel.</p>
+            <img src="img_tarea02_LMSGI/04_ejerc01_tarea02.webp" class="imagenes-proceso" alt="Ponerlo en una cazuela con el caldo, el tomillo y el laurel." width="150px" height="100px">
+        
+            <p>5. Dejar cocer a fuego lento durante unos 15 minutos.</p>
+            <img src="img_tarea02_LMSGI/05_ejerc01_tarea02.jpg" class="imagenes-proceso" alt="Dejar cocer a fuego lento durante unos 15 minutos." width="150px" height="100px">
+        
+            <p>6. Poner las rebanadas de pan encima, espolvorear el queso y gratinar al horno.</p>
+            <img src="img_tarea02_LMSGI/06_ejerc01_tarea02.webp" class="imagenes-proceso" alt="Poner las rebanadas de pan encima, espolvorear el queso y gratinar al horno." width="150px" height="100px">
+        
+            <p>7. Es momento de disfrutar de tu <b>SOPA DE CEBOLLA</b></p>
+            <img src="img_tarea02_LMSGI/07_ejerc01_tarea02.webp" class="imagenes-proceso" alt="¡Ya tienes tu SOPA DE CEBOLLA!" width="150px" height="100px">
         </section>
-
-        <section id="casi">
-            <h2>¡Tú puedes!</h2>
-            <p>No te rindas si la primera vez no sale perfecta. La práctica hace al maestro. ¡Estamos seguros de que pronto harás una sopa deliciosa!</p>
+        
+        <section id="venga">
+            <h2>Comparte con nosotros tu experiencia cocinando</h2>
+            <form name="Formulario_opiniones" action="/paginaQueEjecutaLaAccion.php" method="get">
+                <fieldset>
+                    <legend>Formulario de opiniones</legend>
+                    <label for="fname">Tu nombre de chef:</label>
+                    <input type="text" id="fname" name="fname" size="30" maxlength="30" placeholder="Chef">
+                    <br><br>
+                    <label for="mensaje_text">Cuéntanos:</label>
+                    <input type="text" id="mensaje_text" name="mensaje_text" maxlength="300" placeholder="Tu opinión es importante para mejorar">
+                    <br><br>
+                    <label for="myfile">Elige una imagen o video para compartir:</label>
+                    <input type="file" id="myfile" name="myfile">
+                    <br><br>
+                    <label for="conforme">
+                        <input type="checkbox" name="licencia" id="conforme" value="ok">
+                        Acepto el acuerdo de licencia.
+                    </label>
+                    <br><br>
+                    <input type="submit" value="Enviar">
+                </fieldset>
+            </form>
         </section>
     </main>
 
     <footer id="footer">
         <h2>Estamos contigo</h2>
         <p>Para más recetas, visita nuestra página web o síguenos en redes sociales.</p>
+        <p>
+            Mi GitHub: 
+            <a href="https://github.com/Andreadieguez" target="_blank" rel="noopener noreferrer">
+                Andrea Dieguez
+            </a>
+        </p>
+        <p>&copy;pop_outlaw 2024. Algunos de los derechos reservados, sin embargo, la sopa es de uso mundial.</p>
     </footer>
-</body>
-</html>
-    
+
 </body>
 </html>

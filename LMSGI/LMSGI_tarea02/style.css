@@ -1,35 +1,276 @@
-/* Estilo general para los iconos */
-.icono {
-    width: 20px; /* Ajusta el tamaño del icono */
-    height: auto; /* Mantén las proporciones */
-    vertical-align: middle; /* Alinea los iconos al texto */
-    margin-left: 5px; /* Espacio entre el texto y el icono */
+/* ------------------------------
+    Global y base
+------------------------------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* Opcional: Estilo para el párrafo */
-p {
-    font-size: 16px; /* Ajusta el tamaño de fuente para mejor legibilidad */
-    line-height: 1.6; /* Espaciado entre líneas */
-    margin-bottom: 15px; /* Espaciado entre párrafos */
+/* Body */
+html, body {
+    height: 100%;
+    font-family: 'Motserrat', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
 }
-.icono-ingrediente {
-    width: 20px;
+
+/* ------------------------------
+    Variables para colores y fuentes
+------------------------------ */
+:root {
+    --color-principal: #EA6459;
+    --color-secundario: #c15147;
+    --color-blanco: #fff;
+    --color-gris-claro: #f9f9f9;
+    --color-texto: #333;
+    --fuente-titulo: 'Roboto', sans-serif;
+    --fuente-texto: 'Arial', sans-serif;
+}
+
+/* ------------------------------
+    Estilos para el header
+------------------------------ */
+header {
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+/* Logo */
+header img.logotipo {
+    width: 50px;
     height: auto;
+}
+
+/* Menú nav */
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--color-blanco);
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* ------------------------------
+    Sección 'previo'
+------------------------------ */
+#previo {
+    background-color: var(--color-blanco);
+    text-align: left;
+    padding: 30px;
+    border-radius: 12px;
+    margin: 30px 0;
+}
+
+#previo h1 {
+    text-align: center;
+    font-family: var(--fuente-titulo);
+    font-size: 2.5rem;
+    color: var(--color-principal);
+    margin-bottom: 20px;
+}
+
+#previo h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: var(--color-secundario);
+}
+
+#previo p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+#previo span {
+    font-weight: bold;
+    color: var(--color-principal);
+}
+
+/* iconos de persona */
+#previo .icono {
+    width: 25px;
+    height: auto;
+    margin: 0 8px;
     vertical-align: middle;
-    margin-left: 5px; /* Espacio entre el texto y el icono */
 }
-/* Ocultar el mensaje por defecto */
+
+/* ------------------------------
+    Dección de ingredientes
+------------------------------ */
+#ingredientes {
+    background-color: var(--color-blanco);
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+#ingredientes h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 25px;
+    color: var(--color-secundario);
+}
+
+.ingrediente-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ingrediente {
+    background-color: var(--color-gris-claro);
+    width: 250px;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.ingrediente input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+.ingrediente label {
+    flex-grow: 1;
+    font-size: 1rem;
+}
+
+.icono-ingrediente {
+    width: 30px;
+}
+
+/* ------------------------------
+    Mensaje de ingredientes completados
+------------------------------ */
 .mensaje-completado {
-    font-family: 'Montserrat', sans-serif; /* Fuente Montserrat */
-    display: none; /* Ocultar el mensaje por defecto */
-    font-size: 18px; /* Tamaño de fuente */
-    color: #1f4361; /* Color del texto */
-    margin-top: 20px; /* Espaciado superior */
-    text-align: center; /* Centrado del texto */
+    font-family: 'Montserrat', sans-serif;
+    display: none;
+    font-size: 25px;
+    color: var(--color-principal);
+    margin-top: 20px;
+    text-align: center;
 }
 
-
-/* Mostrar el mensaje cuando todos los checkbox están seleccionados */
+/* Mensajito oculto con todos los checkbox seleccionados */
 .ingrediente-lista:has(input:checked):not(:has(input:not(:checked))) + .mensaje-completado {
     display: block;
+}
+
+/* ------------------------------
+    Sección de proceso
+------------------------------ */
+#proceso {
+    background-color: var(--color-blanco);
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+#proceso h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--color-secundario);
+}
+
+.imagenes-proceso {
+    width: 200px;   
+    height: 100px;  
+    margin: 20px;   
+    border-radius: 20px;
+    display: inline-block; /* Hace que las imágenes se alineen en línea */
+    object-fit: cover; /* Ajusta la imagen sin distorsionarla */
+}
+
+/* ------------------------------
+Formulario de opiniones
+------------------------------ */
+#venga {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+#venga h2 {
+    font-size: 1.5rem;
+    color: #EA6459;
+    margin-bottom: 20px;
+}
+
+form {
+    padding: 10px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #EA6459;
+}
+ /*Envios*/
+input[type="text"],
+input[type="file"],
+input[type="submit"] {
+    
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #EA6459;
+    font-size: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* ------------------------------
+    FOOTER
+------------------------------ */
+footer {
+    background-color: #a74941;
+    color: var(--color-blanco);
+    padding: 30px 20px;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: var(--color-principal);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: var(--color-blanco);
 }
