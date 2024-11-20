@@ -1,0 +1,125 @@
+
+body {
+    font-family: Arial, sans-serif; 
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    color: #333; 
+}
+
+
+header {
+    background-color: #87CEFA; 
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: #fff; 
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    color: #fff; 
+    font-size: 1.2em;
+}
+
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 8px; 
+}
+
+
+section h2 {
+    color: #4682B4;
+    font-size: 2em;
+    border-bottom: 2px solid #4682B4; 
+    padding-bottom: 5px;
+}
+
+section h3 {
+    color: #5F9EA0; 
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+
+section h4 {
+    font-size: 1.2em;
+    color: #8A2BE2; 
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333; 
+}
+
+
+ul {
+    list-style-type: none; /* Quitar los puntos de la lista */
+    padding-left: 0;
+}
+
+ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 200px; /* Limita el tamaño máximo de la imagen */
+    height: 200px; /* Altura fija para que sea cuadrada */
+    object-fit: cover; /* Asegura que la imagen cubra el espacio cuadrado sin distorsionarse */
+    border-radius: 50%; /* Hace la imagen redonda */
+    display: block;
+    margin: 0 auto;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Eliminar espacios entre celdas */
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd; /* Bordes suaves */
+}
+
+table th {
+    background-color: #4682B4;
+    color: white;
+}
+
+
+footer {
+    background-color: #87CEFA; 
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer h3 {
+    color: #fff; 
+    font-size: 1.5em;
+}
+
+footer p {
+    color: #fff; 
+    font-size: 1.1em;
+}
+
+footer a {
+    color: #fff; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline; 
+}
