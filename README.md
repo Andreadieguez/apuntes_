@@ -1,1 +1,3 @@
-# vs_connect_git_github_cloud
+# Tareas de LMGSI - TEMA 2
+
+En esta carpeta van entregadas las tres tareas.
