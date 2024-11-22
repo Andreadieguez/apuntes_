@@ -2,6 +2,7 @@
 *Temario:* U.T. 1. El sector productivo, competencias profesionales y los puestos de trabajo.
 *Prof:* DORA PEREZ MARTIN
 *Fecha entrega:* 2024/11/22
+*Tarea*: 01
 *Nota:*
 
 
