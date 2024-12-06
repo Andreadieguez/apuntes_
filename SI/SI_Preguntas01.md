@@ -1,3 +1,6 @@
+1. ¿Qué nivel de requisitos en la instalación de una aplicación recomienda el fabricante del software para conseguir un rendimiento óptimo de la misma?
+    - Requisitos del equipo opcional.
+
 1. Un antivirus y un entorno de desarrollo para programación son ejemplos de:
     - Aplicaciones de propósito general y específico, respectivamente.
 

@@ -1,61 +1,55 @@
 # Software de un Sistema Informático
 
-Un **sistema informático** es un **conjunto de partes que trabajan en conjunto para cumplir un objetivo específico.**  
-Está compuesto por tres elementos principales:
+Un **sistema informático** es un **conjunto de partes que trabajan para realizar tareas de tratamiento de información: almacenamiento, elaboración y presentación de datos.**  
+Y está compuesto por tres elementos principales:
 
 1. **Hardware**: Elementos físicos del sistema (CPU, memoria, disco duro, etc.).
-2. **Software**: Elementos lógicos, como programas y sistemas operativos.
+2. **Software**: Elementos lógicos, como programas, estructura de datos, documentación y sistemas operativos.
 3. **Usuarios**: Las personas que interactúan con el sistema.
 
 ---
 
 ## Tipos de Software
+El software se clasifica según su propósito, ya sea de uso general o especializado para tareas específicas.
 
-### **1. Software de Propósito General**
-Programas que cumplen funciones amplias y no específicas.  
-Ejemplos:
-- **Bases de datos**: Microsoft Access, Base de LibreOffice.
-- **Editores de contenido**: Microsoft FrontPage (HTML, XML).
-- **Paquetes ofimáticos**: Microsoft Office, Google Workspace.
-- **Compresores de archivos**: WinRAR, 7-Zip.
-
-### **2. Software de Propósito Específico**
-Programas diseñados para tareas concretas.  
-Ejemplos:
-- **Entornos de desarrollo**: C, Java, Visual Studio, Borland Builder C++.
-- **Administración de bases de datos**: Oracle, phpMyAdmin.
-- **Edición de imágenes**: Photoshop, GIMP.
+| **Propósito General**                                                                                                     | **Propósito Específico**                                                                                               |
+|--------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| **<abbr title="Sistema organizado para almacenar, gestionar y recuperar información de manera eficiente">Bases de datos</abbr>**: Microsoft Access, Base de LibreOffice.   | **<abbr title="Herramientas utilizadas para desarrollar aplicaciones y programas informáticos">Entornos de desarrollo</abbr>**: C, Java, Visual Studio, Borland Builder C++. |
+| **<abbr title="Herramientas para crear y editar contenido web en lenguajes como HTML y XML">Editores de contenido</abbr>**: Microsoft FrontPage (HTML, XML).  | **<abbr title="Sistemas y herramientas utilizadas para gestionar y administrar bases de datos">Administración de bases de datos</abbr>**: Oracle, phpMyAdmin.|
+| **<abbr title="Conjunto de aplicaciones utilizadas para la creación y gestión de documentos, hojas de cálculo, presentaciones, etc.">Paquetes ofimáticos</abbr>**: Microsoft Office, Google Workspace. | **<abbr title="Programas utilizados para modificar y crear imágenes digitales">Edición de imágenes</abbr>**: Photoshop, GIMP. |
+| **<abbr title="Herramientas que reducen el tamaño de archivos para facilitar su almacenamiento y transferencia">Compresores de archivos</abbr>**: WinRAR, 7-Zip.*| 
 
 ---
 
 ## Licencias de Software
 
-Las licencias determinan cómo puede ser usado el software. Aquí los principales tipos:
+Las licencias determinan cómo puede ser usado el software. Principales tipos:
 
-### **1. GNU**
-Licencia de software libre que garantiza:
-- Libertad para usar, copiar, estudiar y modificar el software.
-- Ejemplo: Linux (distribuciones como Ubuntu o Fedora).
+### **1. CLUF (Contrato de Licencia para Usuario Final)**
+Licencia de software limitado. Es para un número de ordenadores y no puedes modificarlo, ni distribuirlo. 
+- Windows o Adobe... Tu compras adobe para una maquina-usuario.
 
-### **2. CLUF (Contrato de Licencia para Usuario Final)**
-Acuerdo legal entre el desarrollador y el usuario que establece:
-- Permisos y restricciones del uso del software.
-- Ejemplo: Al instalar Windows, aceptas un CLUF.
+### **2. GNU**
+Licencia de software libre en el que puedes usar, copiar o modificar el código fuente. 
+- Linux (distribuciones como Ubuntu o Fedora).
 
 ### **3. OEM (Original Equipment Manufacturer)**
-Software vendido junto con hardware específico:
-- Está preinstalado en el dispositivo.
-- Ejemplo: Windows preinstalado en ordenadores nuevos.
+Software vendido junto con hardware específico: Está preinstalado en el dispositivo.
+- Windows preinstalado en ordenadores nuevos.
 
 ### **4. Licencia por Volumen**
-Usada por empresas para instalar software en varios equipos:
-- Permite activar múltiples copias con una única clave.
-- Ejemplo: Microsoft Office para empresas.
+Usada por empresas para instalar software en varios equipos: Permite activar múltiples copias con una única clave.
+- Microsoft Office para empresas.
+
+### **5. Software freeware**
+Licencia que es libre en distribución pero no modificable.
+- Antivirus gratuito
+
+### **6. Software shareware**
+Licencia libre pero no puedes modificar su código.
+- Winrar
 
 ---
-
-### Software de un Sistema Informático
-
 El **sistema operativo** es la capa que permite usar el ordenador sin interactuar directamente con el hardware o software a bajo nivel.  
 
 #### **El Kernel o Núcleo**
@@ -225,6 +219,7 @@ Cada sistema operativo utiliza su propio sistema de archivos, pero las operacion
 4. **Mantenimiento sencillo**: Las operaciones deben ser fáciles de gestionar para los usuarios, ocultando detalles complejos del sistema.
 5. **Fiabilidad**: Asegurar que los datos escritos o leídos sean correctos y fiables.
 6. **Seguridad y permisos**: Proteger los archivos de accesos no autorizados mediante el control de permisos (lectura, escritura, ejecución).
+
 7. **Control de concurrencia**: Gestionar el acceso a archivos por parte de múltiples usuarios simultáneamente, bloqueando archivos durante modificaciones para evitar errores.
 
 ### Organización Lógica del Sistema de Archivos
