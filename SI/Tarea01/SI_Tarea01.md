@@ -129,31 +129,32 @@ Apartado 1. Memoria en Windows (Realizar este apartado en una máquina Windows)
 ## Actividad 4.
 
 ### Instalar VirtualBox y Extension Pack  
-![Instalar](/SI/Tarea01/img_tareas/tarea04_0.png)
+![Instalar](/SI/Tarea01/img_tareas/Tarea04_0.png)
 
 ### Instalar Windows 10  
 Dado que ya tenía instalada la VirtualBox con Ubuntu, no seguí la nomenclatura exacta solicitada en la actividad y designé el nombre de la siguiente manera:  
 - **Nombre de la máquina**: Windows_10_FP  
-![Instalar](/SI/Tarea01/img_tareas/tarea04_1.png)
+![Instalar](/SI/Tarea01/img_tareas/Tarea04_1.png)
+
 - **Nombre del usuario**: "Andrea Dieguez"  
-![Instalar](/SI/Tarea01/img_tareas/tarea04_3.png)
+![Instalar](/SI/Tarea01/img_tareas/Tarea04_3.png)
 
 ### Requerimientos cumplidos:  
 - **Memoria RAM**: 2GB (para instalación de 64 bits)  
 - **Disco duro**: 100GB  
-![Instalar](/SI/Tarea01/img_tareas/tarea04_2.png)
+![Instalar](/SI/Tarea01/img_tareas/Tarea04_2.png)
 
 - **Versión de Windows**: Instalación de Windows 10 Pro  
-![Instalar](/SI/Tarea01/img_tareas/tarea03_5.png)
+![Instalar](/SI/Tarea01/img_tareas/Tarea04_5.png)/SI/Tarea01/img_tareas/tarea03_5.png)
 
 - **Partición de Windows**: 50GB  
-![Instalar](/SI/Tarea01/img_tareas/tarea04_6.png)
+![Instalar](/SI/Tarea01/img_tareas/Tarea04_6.png)
 
 - **Instalar Guest Additions**  
-![Instalar](/SI/Tarea01/img_tareas/tarea04_8.png)
+![Instalar](/SI/Tarea01/img_tareas/Tarea04_8.png)
 
 - **Configurar carpeta compartida**  
-![Instalar](/SI/Tarea01/img_tareas/tarea04_10.png)
+![Instalar](/SI/Tarea01/img_tareas/Tarea04_10.png)
 
 - **Máquina virtual configurada**  
 ![Instalar](/SI/Tarea01/img_tareas/tarea04_11.png)
@@ -164,10 +165,10 @@ Dado que ya tenía instalada la VirtualBox con Ubuntu, no seguí la nomenclatura
 Manipulaciones en VirtualBox.
 
 1. Buscar archivo .vdi del disco duro de la máquina instalada. ¿Cuánto ocupa actualmente?  
-![Instalar](/SI/Tarea01/img_tareas/tarea05_0.png)
+![Instalar](/SI/Tarea01/img_tareas/Tarea05_0.png)
 
 2. Clonar la máquina en VirtualBox. Menú contextual en VirtualBox en el nombre de la máquina.  
-![Instalar](/SI/Tarea01/img_tareas/tarea05_3.png)
+![Instalar](/SI/Tarea01/img_tareas/Tarea05_3.png)
 
 3. Crear una instantánea de tu máquina  
 ![Instalar](/SI/Tarea01/img_tareas/Tarea05_1.png)
