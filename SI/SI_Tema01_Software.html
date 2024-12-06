@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tema 1 "Software" - Sistemas informáticos</title>
+    <link rel="stylesheet" href="style_tema01.css">
+</head>
+<body>
+
+<h1><u>Software - Sistemas informáticos</u></h1>
+
+<p>Un <strong>sistema informático - SI </strong> es un <strong>conjunto de partes que trabajan para realizar tareas de tratamiento de información: almacenamiento, elaboración y presentación de datos.</strong><br>
+Y está compuesto por tres elementos principales:</p>
+
+<ol>
+    <li><strong>Hardware</strong>: Elementos físicos del sistema (CPU, memoria, disco duro, etc.).</li>
+    <li><strong>Software</strong>: Elementos lógicos, como programas, estructura de datos, documentación y sistemas operativos.</li>
+    <li><strong>Usuarios</strong>: Las personas que interactúan con el sistema.</li>
+</ol>
+
+<h3><u>Tipos de Software</u></h3>   
+<p>El software se clasifica según su propósito, ya sea de uso general o especializado para tareas específicas.</p>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th><strong>Propósito General</strong></th>
+            <th><strong>Propósito Específico</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong><abbr title="Sistema organizado para almacenar, gestionar y recuperar información de manera eficiente">Bases de datos</abbr></strong>: Microsoft Access, Base de LibreOffice.</td>
+            <td><strong><abbr title="Herramientas utilizadas para desarrollar aplicaciones y programas informáticos">Entornos de desarrollo</abbr></strong>: C, Java, Visual Studio, Borland Builder C++.</td>
+        </tr>
+        <tr>
+            <td><strong><abbr title="Herramientas para crear y editar contenido web en lenguajes como HTML y XML">Editores de contenido</abbr></strong>: Microsoft FrontPage (HTML, XML).</td>
+            <td><strong><abbr title="Sistemas y herramientas utilizadas para gestionar y administrar bases de datos">Administración de bases de datos</abbr></strong>: Oracle, phpMyAdmin.</td>
+        </tr>
+        <tr>
+            <td><strong><abbr title="Conjunto de aplicaciones utilizadas para la creación y gestión de documentos, hojas de cálculo, presentaciones, etc.">Paquetes ofimáticos</abbr></strong>: Microsoft Office, Google Workspace.</td>
+            <td><strong><abbr title="Programas utilizados para modificar y crear imágenes digitales">Edición de imágenes</abbr></strong>: Photoshop, GIMP.</td>
+        </tr>
+        <tr>
+            <td><strong><abbr title="Herramientas que reducen el tamaño de archivos para facilitar su almacenamiento y transferencia">Compresores de archivos</abbr></strong>: WinRAR, 7-Zip.</td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+<h3><u>Licencias de Software</u></h3>
+<p>Las licencias determinan cómo puede ser usado el software. Principales tipos:</p>
+
+<div class="licencias">
+    <div class="licencia">
+        <div class="texto">
+            <h4><strong>1. CLUF (Contrato de Licencia para Usuario Final)</strong></h4>
+            <p>Licencia de software limitado. Es para un número de ordenadores y no puedes modificarlo, ni distribuirlo.<br> 
+            Windows o Adobe... Tú compras Adobe para una máquina-usuario.</p>
+        </div>
+        <img class="imagen-licencia" src="/img_temas/CLUF_Tema01.png" alt="CLUF">
+    </div>
+
+    <div class="licencia">
+        <div class="texto">
+            <h4><strong>2. GNU (Contrato de Licencia libre)</strong></h4>
+            <p>Licencia de software libre en el que puedes usar, copiar o modificar el código fuente.<br>
+            Linux (distribuciones como Ubuntu o Fedora).</p>
+        </div>
+        <img class="imagen-licencia" src="/img_temas/GNU_Tema01.png" alt="GNU">
+    </div>
+
+    <div class="licencia">
+        <div class="texto">
+            <h4><strong>3. OEM (Original Equipment Manufacturer)</strong></h4>
+            <p>Software vendido junto con hardware específico: Está preinstalado en el dispositivo.<br>
+            Windows preinstalado en ordenadores nuevos.</p>
+        </div>
+        <img class="imagen-licencia" src="/img_temas/CLUF_Tema01.png" alt="OEM">
+    </div>
+
+    <div class="licencia">
+        <div class="texto">
+            <h4><strong>4. Licencia por Volumen</strong></h4>
+            <p>Usada por empresas para instalar software en varios equipos: Permite activar múltiples copias con una única clave.<br>
+            Microsoft Office para empresas.</p>
+        </div>
+        <img class="imagen-licencia" src="/img_temas/CLUF_Tema01.png" alt="Volumen">
+    </div>
+
+    <div class="licencia">
+        <div class="texto">
+            <h4><strong>5. Software freeware</strong></h4>
+            <p>Licencia que es libre en distribución pero no modificable.<br>
+            Antivirus gratuito.</p>
+        </div>
+        <img class="imagen-licencia" src="/img_temas/CLUF_Tema01.png" alt="Freeware">
+    </div>
+
+    <div class="licencia">
+        <div class="texto">
+            <h4><strong>6. Software shareware</strong></h4>
+            <p>Licencia libre pero no puedes modificar su código.<br>
+            Winrar.</p>
+        </div>
+        <img class="imagen-licencia" src="/img_temas/CLUF_Tema01.png" alt="Shareware">
+    </div>
+</div>
+
+
+
+<h2><u>Sistema Operativo - SO</u></h2>
+
+<p>El <strong>sistema operativo - SO</strong> es un conjunto de programas que ayudan al usuario a interactuar con el hardware. El "cerebro" del SO es el <strong>Kernel - núcleo</strong>, quien administra - gestiona los recursos del hardware (CPU, memoria, gestión E/S..).</p>
+
+<p>Existen infinidad de sistemas operativos y pueden estar clasificados por: estructura, servicios o forma.</p>
+
+<h4>Tipos de Sistemas operativos por Estructura</h4>
+<ol>
+    <li><strong>Monolito</strong>: El código del SO está en un <strong>solo bloque o monolito</strong><br>
+        > Linux
+    </li>
+    <li><strong>Capas</strong>: El código del SO está en <strong>capas</strong><br>
+        > Windows NT (10/11)
+    </li>
+    <li><strong>Jerárquicos</strong>: El código del SO está organizado en jerarquía, cada nivel depende del nivel superior.<br>
+        > Unix ([Unix]())
+    </li>
+    <li><strong>Máquina virtual</strong>: El SO parece una máquina física pero se ejecuta sobre el host (anfitrión) - es como un "chupasangre"<br>
+        > Virtualbox, UTM, Parallels
+    </li>
+    <li><strong>Cliente - servidor</strong>: El SO se divide en "servidor" que ofrece recursos y servicios y "cliente" que los pide.<br>
+        > Windows Server
+    </li>
+    <li><strong>Microkernel</strong>: Busca reducir al mínimo el código del SO.<br>
+        > Minix
+    </li>
+    <li><strong>Híbrido (Monolítico + Microkernel)</strong><br>
+        > MacOs
+    </li>
+</ol>
+
+<h4>Tipos de Sistemas operativos por Servicios</h4>
+<ol>
+    <li><strong>Monousuario</strong>: Solo un usuario puede usar el sistema a la vez.<br>
+        > MS-DOS
+    </li>
+    <li><strong>Multiusuario</strong>: Varios usuarios pueden usar el sistema simultáneamente.<br>
+        > Unix, Linux
+    </li>
+    <li><strong>Monoproceso - monotarea</strong>: Solo puede ejecutar un proceso a la vez.<br>
+        > MS-DOS
+    </li>
+    <li><strong>Multitarea</strong>: Puede ejecutar múltiples procesos al mismo tiempo.<br>
+        > Windows, Linux
+    </li>
+    <li><strong>Monoprocesador</strong>: Usa solo un procesador para ejecutar tareas.<br>
+        > Windows 98, MS-DOS
+    </li>
+    <li><strong>Multiprocesado</strong>: Usa múltiples procesadores para ejecutar tareas en paralelo.<br>
+        > Windows Server, Linux (en servidores)
+    </li>
+</ol>
+
+</body>
+</html>

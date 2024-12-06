@@ -1,0 +1,10 @@
+.licencia {
+    display: flex; /* Activa Flexbox para organizar texto e imagen */
+    align-items: flex-end; 
+    gap: 50px; /* Espaciado entre texto e imagen */
+}
+
+.imagen-licencia {
+    max-width: 150px; /* Tamaño fijo de la imagen */
+    height: auto; /* Mantiene la proporción */
+}

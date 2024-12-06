@@ -50,7 +50,54 @@ Licencia libre pero no puedes modificar su código.
 - Winrar
 
 ---
-El **sistema operativo** es la capa que permite usar el ordenador sin interactuar directamente con el hardware o software a bajo nivel.  
+
+El **sistema operativo - SO** es un conjunto de programas que ayudan al usuario a interactuar con el hardware. El "cerebro" del SO es el **Kernel - núcleo**, quien administra - gestiona los recursos del hardware (CPU, memoria, geion E/S..) . 
+
+Existen infinidad de sistemas operativos y pueden estar clasificador por: estructura, servicios o forma. 
+
+#### Tipos de Sistemas operativos por Estructura 
+   1. **Monolito**: El código del SO está en un **solo bloque o monolito** 
+      > Linux
+   2. **Capas**: El código del SO está en **capas** 
+      > Windows NT (10/11)
+   3. **Jerárquicos**: El código del SO está organizado en jerarquía, cada nivel depende del nivel superior.
+      > Unix ([Unix]())
+      
+   4. **Máquina virtual**: El SO parece una máquina física pero se ejecuta sobre el host (anfitrion) - es como un "chupasangre"
+      > Virtualbox, UTM, Paralels
+   5. **Cliente - servidor**: El SO se divide en "servidor" que ofrece recursos y servicios y "cliente" que los pide.
+      > Windows Server
+   6. **Microkernel**: Busca reducir al mínimo el código del SO.
+      > Minix
+   7. **Híbrido (Monolítico + Microkernel)**
+      > MacOs
+
+#### Tipos de Sistemas operativos por Servicios
+   1. **Monousuario**: Solo un usuario puede usar el sistema a la vez.  
+      > MS-DOS
+   2. **Multiusuario**: Varios usuarios pueden usar el sistema simultáneamente.  
+      > Unix, Linux
+   3. **Monoproceso - monotarea**: Solo puede ejecutar un proceso a la vez.  
+      > MS-DOS
+   4. **Multitarea**: Puede ejecutar múltiples procesos al mismo tiempo.  
+      > Windows, Linux
+   5. **Monoprocesador**: Usa solo un procesador para ejecutar tareas.  
+      > Windows 98, MS-DOS
+   6. **Multiprocesado**: Usa múltiples procesadores para ejecutar tareas en paralelo.  
+      > Windows Server, Linux (en servidores)
+
+
+
+#### Tipos de Sistemas operativos por 
+
+
+
+
+
+
+
+
+es la capa que permite usar el ordenador sin interactuar directamente con el hardware o software a bajo nivel.  
 
 #### **El Kernel o Núcleo**
 - Parte central del sistema operativo, cargada en la RAM.  
