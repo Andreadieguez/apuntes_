@@ -26,9 +26,9 @@ Apartado 1. Procesos en Windows. Administrador de tareas (Realizar este apartado
 
 ![Admin.tareas](/SI-maquinavirtual/tarea02_1.png)
 
-![Administración de tareas - Detalles](SI/SI-maquinavirtual/tarea02_2.png)
+![Administración de tareas - Detalles](SI-maquinavirtual/tarea02_2.png)
 
-![Administración de tareas - Prioridad](SI/SI-maquinavirtual/tarea02_3.png)
+![Administración de tareas - Prioridad](SI-maquinavirtual/tarea02_3.png)
 
 ---
 
